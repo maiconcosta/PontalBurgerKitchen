@@ -1,9 +1,8 @@
 import React from 'react';
+import Orders from './pages/Orders';
 
-function App() {
-  return (
-    <h2>Hello World</h2>
-  );
-}
+import './global.scss';
+
+const App = () => <Orders />;
 
 export default App;
