@@ -6,6 +6,7 @@ import socketIOClient from 'socket.io-client';
 import './styles.scss';
 
 import logoImg from '../../assets/logo.png';
+import ifoodImg from '../../assets/ifood.png';
 
 const socket = socketIOClient(process.env.REACT_APP_API_URL);
 
@@ -71,12 +72,8 @@ export default function Orders() {
                     Pedido #
                     {order.rest.internalCode}
                   </h3>
-                  <p>
-                    {Intl.NumberFormat('pt-BR', {
-                      style: 'currency',
-                      currency: 'BRL',
-                    }).format(order.rest.total)}
-                  </p>
+                  {order.rest.paymentId === 4
+                  && <img src={ifoodImg} alt="ifood" />}
                 </div>
                 <p>
                   Horário do pedido:
