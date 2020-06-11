@@ -31,6 +31,7 @@
   }
 
   .content {
+    text-transform: uppercase;
 
     ul {
       list-style: none;
@@ -47,7 +48,7 @@
         box-shadow: 4px 4px 6px rgb(202, 202, 202);
         transition-duration: 0.5s;
         margin: 10px;
-        width: 300px;
+        width: 420px;
 
         &:hover {
           box-shadow: 2px 2px 10px rgb(134, 134, 134);
@@ -66,12 +67,14 @@
         .items {
           margin-top: 10px;
           font-weight: bold;
-          font-size: 12px;
+          font-size: 18px;
           line-height: 1.5;
+          text-transform: uppercase;
         }
 
         .observation {
           margin-top: 10px;
+          font-size: 16px;
           text-transform: uppercase;
         }
       }
