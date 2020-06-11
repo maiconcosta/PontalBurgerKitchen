@@ -48,7 +48,7 @@
         box-shadow: 4px 4px 6px rgb(202, 202, 202);
         transition-duration: 0.5s;
         margin: 10px;
-        width: 420px;
+        width: 380px;
 
         &:hover {
           box-shadow: 2px 2px 10px rgb(134, 134, 134);
@@ -67,8 +67,8 @@
         .items {
           margin-top: 10px;
           font-weight: bold;
-          font-size: 18px;
-          line-height: 1.5;
+          font-size: 16px;
+          line-height: 1.2;
           text-transform: uppercase;
         }
 
@@ -76,6 +76,7 @@
           margin-top: 10px;
           font-size: 16px;
           text-transform: uppercase;
+          font-style: italic;
         }
       }
     }
